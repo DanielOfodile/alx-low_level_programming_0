@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+#include <stdio.h>
+
+/*
+
+*Main prints programming is like a multilingual puzzle.
+
+*Zero is returned if program runs smoothly.
+
+*/
+
+int main (void)
+#!/bin/bash
