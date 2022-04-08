@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Prints the last digit of a randomly generated number
- * and wether it is grater than 5, less than 6, or zero
- *
- * Return: Always 0
+ * 	  and whether it is grater than 5, less than 6, or zero.
+ * Return: Always 0.
  */
+
 int main(void)
 {
 	int n;
