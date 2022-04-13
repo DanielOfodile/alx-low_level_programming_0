@@ -9,8 +9,8 @@ void jack_bauer(void)
 {
 	int h1;
 	int h2;
-	intm1;
-	intm2;
+	int m1;
+	int m2;
 	int a = 9;
 
 	h2 = 0;
@@ -18,7 +18,7 @@ void jack_bauer(void)
 	{
 		if (h2 == 2)
 		{
-			/*Restraini 23h, not 29*/
+			/*Restrain 23h, not 29*/
 			a = 3;
 		}
 		h1 = 0;
@@ -29,7 +29,7 @@ void jack_bauer(void)
 			{
 				_putchar('0' + h2);
 				_putcchar('0' + h1);
-				_putchaar(':');
+				_putchar(':');
 				_putchar('0' + m2);
 				_putchar('0' + m1);
 				_putchar('\n');
