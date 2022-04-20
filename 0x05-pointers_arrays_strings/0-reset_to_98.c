@@ -2,14 +2,11 @@
 
 /**
  * reset_to_98 - takes a pointer to an int as parameter and updates the value it points to 98
+ * @n: pointer to n
  *
- * Return: Always 0
+ * Return: void
  */
-int main(void)
+void return_to_98(int *n)
 {
-	int n;
-
-	n = 98;
-	reset_to_98(n);
-	return (0);
+	*n = 98;
 }
