@@ -9,7 +9,7 @@
 void rev_string(char *s)
 {
 	int i, c, k;
-	char *a, safe;
+	char *a, aux;
 
 	a = s;
 
@@ -27,7 +27,7 @@ void rev_string(char *s)
 	{
 		safe = s[i];
 		s[i] = *a;
-		*a = safe;
+		*a = aux;
 		a--;
 	}
 }
