@@ -1,4 +1,4 @@
-#include 'main.h"
+#include "main.h"
 
 /**
  * put2 - prints every other character of a string to stdout
