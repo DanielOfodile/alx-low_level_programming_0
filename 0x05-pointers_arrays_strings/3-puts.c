@@ -7,14 +7,9 @@
  * Return: 0
  */
 void _puts(char *str)
-{
-	int i;
-	
-	while (*(str + i) != '\0')
-	{
-	_putchar(*(str + i));
-	i++;
+{	
+	while (*str)
+		_putchar(*str++);
 
-	}
 	_putchar('\n');
 }
