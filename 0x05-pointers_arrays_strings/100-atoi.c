@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoic - Find and print the first number in a string as an int
+ * _atoi - Find and print the first number in a string as an int
  * @s: String to convert to int
  * Return: The int
  */
