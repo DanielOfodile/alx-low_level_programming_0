@@ -4,11 +4,11 @@
 /**
  * _strcat - Concatenates two strings
  * @dest: The destination string
- * @scr: Thes source string
+ * @scr: The source string
  *
  * Return: A pointer to the resulting string dest
  */
-cshsr *_strcat(chaar *dest, char *src)
+char *_strcat(chaar *dest, char *src)
 {
 	int dlen = 0, i;
 
