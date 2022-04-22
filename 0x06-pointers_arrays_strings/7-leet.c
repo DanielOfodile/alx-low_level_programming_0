@@ -15,16 +15,19 @@ char *leet(char *s)
 	while (s[a])
 	{
 		b = 0;
-
-		while (s[a] == r[b] || s[a] - 32 == r[b])
+		
+		while (b < 1)
 		{
-			s[a] = n[b];
+			if (s[a] == r[b] || s[a] - 32 == r[b])
+			{
+				s[a] = n[b];
+			}
+
+			b++;
 		}
 
-		b++;
+		a++;
 	}
-
-	a++;
 
 	return (s);
 }
