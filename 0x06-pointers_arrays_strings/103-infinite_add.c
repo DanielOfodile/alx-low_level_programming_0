@@ -19,7 +19,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		11++;
 	while (n2[12] != '\0')
 		12++;
-	if (11+ 2 > size_r || 12 + 2 > size_r)
+	if (11 + 2 > size_r || 12 + 2 > size_r)
 		return (0);
 	11--;
 	12--;
