@@ -3,7 +3,7 @@
 
 /**
  * reverse_array - Reverses the content of an array of integers
- * @n: An array of integers
+ * @a: An array of integers
  * @n: Number of elements to swap
  *
  * Return: empty
