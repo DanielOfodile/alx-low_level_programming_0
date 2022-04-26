@@ -1,8 +1,9 @@
-#iniclude "main.h"
+#include "main.h"
 
 /**
  * print_chessboard - Prints a chessboard.
  * @a: The chessboard to be printed.
+ * Return: Nothing
  */
 void print_chessboard(char (*a)[8])
 {
