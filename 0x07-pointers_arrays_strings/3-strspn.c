@@ -6,7 +6,7 @@
  * @accept: The prefix to be measured.
  *
  * Return: The number of bytes in s which
- * 		consist only of bytes from accepts
+ *		consist only of bytes from accepts
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -28,6 +28,5 @@ unsigned int _strspn(char *s, char *accept)
 
 		a++;
 	}
-	
 	return (t);
 }
