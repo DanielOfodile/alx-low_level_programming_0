@@ -8,15 +8,12 @@
  */
 int _pow_recursion(int x, int y)
 {
-	int power;
-
-	power = _pow_recursion(x, y);
 	if (y < 0)
 	{
 		return (-1);
 	}
 	else
 	{
-		return (power);
+		return (_pow_recursion(x, y));
 	}
 }
