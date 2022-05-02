@@ -13,7 +13,7 @@
 int _isnumber(char *s)
 {
 	int i, check, d;
-	
+
 	i = 0, d = 0, check = 1;
 	if (*s == '-')
 		i++;
