@@ -1,5 +1,5 @@
-#ifndef _S_LINK_LISTS_
-#define _S_LINK_LISTS_
+#ifndef LIST_H
+#define LIST_H
 
 /**
  * struct listint_s - singly linked list
@@ -7,7 +7,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for ALX project
  */
 typedef struct listint_s
 {
